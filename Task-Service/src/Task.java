@@ -36,7 +36,7 @@ public class Task {
     }
 
     public void setDescription(String description) {
-        if (description != null && name.length() <= 50) {
+        if (description != null && description.length() <= 50) {
             this.description = description;
         } else {
             throw new IllegalArgumentException("Error: Invalid description.");
