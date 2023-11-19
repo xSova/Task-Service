@@ -1,4 +1,5 @@
-# TaskService
+# Task-Service
+A system to create, edit, and track your tasks
 
 ## Overview
 The TaskService application is a Java-based solution designed to manage Task information. This application provides functionalities to add, update, and delete Task details. The service uses in-memory data structures for storage, making it fast and efficient for managing Task data.
